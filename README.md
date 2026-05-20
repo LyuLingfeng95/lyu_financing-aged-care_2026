@@ -316,7 +316,16 @@ Use these to compute means, percentiles, and survival-conditional averages for a
 If you use this code in academic work, please cite:
 
 ```
-
+@article{Lyu2026Financing,
+  author  = {Lyu, Lingfeng and Shen, Yang and Sherris, Michael and Ziveyi, Jonathan},
+  title   = {Financing aged care with home equity allowing for government age pension and aged care support},
+  journal = {Insurance: Mathematics and Economics},
+  year    = {2026},
+  volume  = {126},
+  pages   = {103193},
+  issn    = {0167-6687},
+  doi     = {10.1016/j.insmatheco.2025.103193}
+}
 ```
 
 ---
