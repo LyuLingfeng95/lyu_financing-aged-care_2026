@@ -25,20 +25,6 @@ A stochastic dynamic programming model of optimal consumption, savings, and home
 
 ## Model overview
 
-`\textit{For specific parameter settings, please refer to our paper. In the event of any discrepancies, the paper shall prevail.}`
-
-```
-@article{Lyu2026Financing,
-  author  = {Lyu, Lingfeng and Shen, Yang and Sherris, Michael and Ziveyi, Jonathan},
-  title   = {Financing aged care with home equity allowing for government age pension and aged care support},
-  journal = {Insurance: Mathematics and Economics},
-  year    = {2026},
-  volume  = {126},
-  pages   = {103193},
-  issn    = {0167-6687},
-  doi     = {10.1016/j.insmatheco.2025.103193}
-}
-```
 
 A retiree chooses non-durable consumption `C_t` and a downsizing strategy over a 40-period (annual) horizon, taking as given:
 
@@ -52,6 +38,21 @@ The Bellman equation is solved by backward induction in two stages:
 1. **`3_5.ipynb`** — solves health states 3 and 5 on a wide wealth grid and saves `Dict_35`.
 2. **`1_2.ipynb`** — uses `Dict_35` as continuation values and solves states 1 and 2, saving `Dict_12`.
 3. **`Combined.ipynb`** — simulates 20,000 life trajectories using the optimal policies and produces summary statistics.
+
+
+For specific parameter settings, please refer to our paper. In the event of any discrepancies, the paper shall prevail.
+```
+@article{Lyu2026Financing,
+  author  = {Lyu, Lingfeng and Shen, Yang and Sherris, Michael and Ziveyi, Jonathan},
+  title   = {Financing aged care with home equity allowing for government age pension and aged care support},
+  journal = {Insurance: Mathematics and Economics},
+  year    = {2026},
+  volume  = {126},
+  pages   = {103193},
+  issn    = {0167-6687},
+  doi     = {10.1016/j.insmatheco.2025.103193}
+}
+```
 
 ---
 
