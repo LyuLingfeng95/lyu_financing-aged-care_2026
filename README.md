@@ -25,6 +25,21 @@ A stochastic dynamic programming model of optimal consumption, savings, and home
 
 ## Model overview
 
+`\textit{For specific parameter settings, please refer to our paper. In the event of any discrepancies, the paper shall prevail.}`
+
+```
+@article{Lyu2026Financing,
+  author  = {Lyu, Lingfeng and Shen, Yang and Sherris, Michael and Ziveyi, Jonathan},
+  title   = {Financing aged care with home equity allowing for government age pension and aged care support},
+  journal = {Insurance: Mathematics and Economics},
+  year    = {2026},
+  volume  = {126},
+  pages   = {103193},
+  issn    = {0167-6687},
+  doi     = {10.1016/j.insmatheco.2025.103193}
+}
+```
+
 A retiree chooses non-durable consumption `C_t` and a downsizing strategy over a 40-period (annual) horizon, taking as given:
 
 - **Health states** `Hstate ∈ {1, 2, 3, 5}`: 1 and 2 are healthy / mildly assisted living at home; 3 is on a Home Care Package; 5 is in residential aged care. Transitions follow a non-homogeneous Markov chain (`National_Transit.pkl`).
@@ -311,24 +326,6 @@ Use these to compute means, percentiles, and survival-conditional averages for a
 
 ---
 
-## Citation
-
-If you use this code in academic work, please cite:
-
-```
-@article{Lyu2026Financing,
-  author  = {Lyu, Lingfeng and Shen, Yang and Sherris, Michael and Ziveyi, Jonathan},
-  title   = {Financing aged care with home equity allowing for government age pension and aged care support},
-  journal = {Insurance: Mathematics and Economics},
-  year    = {2026},
-  volume  = {126},
-  pages   = {103193},
-  issn    = {0167-6687},
-  doi     = {10.1016/j.insmatheco.2025.103193}
-}
-```
-
----
 
 ## License
 
