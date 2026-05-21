@@ -325,9 +325,3 @@ with open("Dict_12", "rb") as f:
 
 Use these to compute means, percentiles, and survival-conditional averages for any comparison across experiments.
 
----
-
-
-## License
-
-<Choose a license — MIT and Apache-2.0 are the most common for academic code. Add the chosen license text in `LICENSE`.>
